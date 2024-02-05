@@ -1,5 +1,5 @@
 # Blog Generation 
-## commands to run 
+## Step 1: Run the following commands 
 ```
 conda create -p venv python==3.10.11 (or whatever your version is)
 conda activate venv
@@ -13,3 +13,12 @@ and load the mode using the command
 git lfs install
 git clone https://huggingface.co/TheBloke/Llama-2-7B-GGML
 ```
+
+## Step 2: Run app.py
+after installing all the dependencies we can open the streamlit website using the command below in the terminal 
+```
+streamlit app.py 
+```
+
+and the website will open in new terminal 
+easy peasy
