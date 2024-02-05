@@ -1,0 +1,5 @@
+/blog_generation/venv/
+/blog_generation/model/llama-2-7b-chat.ggmlv3.q8_0.bin
+/blog_generation/.ipynb_checkpoints/
+/gemini/.ipynb_checkpoints/
+/test_streamlit/.ipynb_checkpoints/
