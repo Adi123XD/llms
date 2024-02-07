@@ -3,3 +3,6 @@
 /blog_generation/.ipynb_checkpoints/
 /gemini/.ipynb_checkpoints/
 /test_streamlit/.ipynb_checkpoints/
+/chat_with_pdfs/venv/
+/chat_with_pdfs/faiss_index/
+/chat_with_pdfs/.env
