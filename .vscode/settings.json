@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./chatbot/venv/Lib/site-packages",
+        "./chat_with_pdfs/venv/Lib/site-packages"
+    ]
+}
