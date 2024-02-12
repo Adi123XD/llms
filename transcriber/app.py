@@ -30,9 +30,12 @@ def extract_transcript_details(video_id):
         for i in transcript:
             transcript_text+= " "+i["text"]
         return transcript_text
-        pass
     except Exception as e:
-        raise e
+        error_message = str(e)
+        if "No transcripts were found for any of the requested language codes" in error_message:
+            st.error("Transcripts are not available in English for this video.")
+        else:
+            st.error(f"An error occurred: {error_message}")
 def generate_gemini_content(transcript_text):
     model = genai.GenerativeModel("gemini-pro")
     prompt =f'''You are a youtube video summarizer. You will be taking the transcript text and summarizing the 
