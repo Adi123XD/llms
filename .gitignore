@@ -10,3 +10,6 @@
 /chatbot/.env
 /transcriber/venv/
 /transcriber/.env
+/betterAI/venv/
+/betterAI/.env
+/betterAI2/
