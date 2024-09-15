@@ -5,11 +5,12 @@
 /test_streamlit/.ipynb_checkpoints/
 /chat_with_pdfs/venv/
 /chat_with_pdfs/faiss_index/
-/chat_with_pdfs/.env
 /chatbot/venv/
 /chatbot/.env
 /transcriber/venv/
 /transcriber/.env
 /betterAI/venv/
+/betterAI/faiss_index/
 /betterAI/.env
 /betterAI2/
+/outfit_recommender/
